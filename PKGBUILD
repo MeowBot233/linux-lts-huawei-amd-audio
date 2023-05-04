@@ -18,10 +18,10 @@ source=(
   0002-huawei-amd-sound.patch
   0003-es8316.patch
 )
-validpgpkeys=(
-  'ABAF11C65A2970B130ABE3C479BE3E4300411886'  # Linus Torvalds
-  '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
-)
+# validpgpkeys=(
+#   'ABAF11C65A2970B130ABE3C479BE3E4300411886'  # Linus Torvalds
+#   '647F28654894E3BD457199BE38DBBDC86092693E'  # Greg Kroah-Hartman
+# )
 # https://www.kernel.org/pub/linux/kernel/v6.x/sha256sums.asc
 sha256sums=('cb72436ceb15086ae3df65e590592030692a9237a37d64105478eb5a72493091'
             'SKIP'

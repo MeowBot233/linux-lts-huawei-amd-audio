@@ -6,8 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v1
-      - name: gpg key
-        run: gpg --recv-keys 38DBBDC86092693E
       - name: build
         uses: 2m/arch-pkgbuild-builder@v1.18
         with:
