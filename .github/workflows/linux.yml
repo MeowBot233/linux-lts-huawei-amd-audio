@@ -5,6 +5,7 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v1
       - name: build
         uses: 2m/arch-pkgbuild-builder@v1.18
         with:
