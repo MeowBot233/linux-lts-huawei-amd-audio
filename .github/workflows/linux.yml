@@ -1,0 +1,17 @@
+name: build kernel pkg
+on: [push, workflow_dispatch]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: build
+        uses: 2m/arch-pkgbuild-builder@v1.18
+        with:
+          target: 'pkgbuild'
+          pkgname: '.'
+      - name: upload
+        uses: actions/upload-artifact@v3
+        with:
+          name: pkg
+          path: linux-lts-huawei-amd-audio/*.zst
