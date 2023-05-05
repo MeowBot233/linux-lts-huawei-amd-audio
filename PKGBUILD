@@ -24,7 +24,6 @@ source=(
 # )
 # https://www.kernel.org/pub/linux/kernel/v6.x/sha256sums.asc
 sha256sums=('cb72436ceb15086ae3df65e590592030692a9237a37d64105478eb5a72493091'
-            'SKIP'
             '3e197fb47c203a1410f79f85dabc177d2290c642826414e7f7698e54afd4ef48'
             '1bd8388fcb6ed4eec46450c65eb7a0889a8c541f164a39e3064633981a7a4a3d'
             '533635d950865c160edbd6720174ca45ffbb45374e06b9c08b9a8b709881dce9'
